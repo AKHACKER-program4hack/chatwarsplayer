@@ -1,0 +1,36 @@
+{
+  "name": "Userbot - Telegram Chatwars player userbot",
+  "description": "A modular Telegram Userbot running on Python 3.9",
+  "logo": "https://te.legra.ph/file/4eee09fb328d59519b658.jpg",
+  "keywords": [
+      "telegram",
+      "Chatwarsplayerbot",
+      "Chatwars",
+      "userbot",
+      "plugin",
+      "modular",
+      "pyrogram",
+      "productivity",
+      "chatwarsplayer",
+      "AK HACKER userbot"
+  ],
+  "repository": "https://github.com/AKHACKER-program4hack/chatwarsplayer",
+  "env": {
+      "ENV": {
+          "description": "Fill this if you using environ variable as config.",
+          "value": "Yes"
+      },
+      "API_ID": {
+          "description": "Get from https://my.telegram.org",
+          "value": "Yes"
+      },
+      "API_HASH": {
+          "description": "Get from https://my.telegram.org",
+          "value": "Yes"
+      },
+      "USERBOT_SESSION": {
+          "description": "Generate String from Heroku Shell by running 'bash genStr' after you deploy, Set this value later after genrating the string if you dont have. Make sure you choose option 1 since you are here to use it for userbot :)",
+          "value": "Yes"
+      }
+  }
+}
