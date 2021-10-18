@@ -7,8 +7,8 @@ async def send_all(client, message):
   message_id = message.message_id
   chat_id = message.chat.id
   try:
-    get_inline = message.reply_markup.inline_keyboard
     while True:
+      get_inline = message.reply_markup.inline_keyboard
       for inline in get_inline:
         # print(inline)
         check_list = isinstance(inline, list)
