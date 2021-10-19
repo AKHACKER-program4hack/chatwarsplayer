@@ -16,10 +16,6 @@
   ],
   "repository": "https://github.com/AKHACKER-program4hack/chatwarsplayer",
   "env": {
-      "ENV": {
-          "description": "Fill this if you using environ variable as config.",
-          "value": "Yes"
-      },
       "API_ID": {
           "description": "Get from https://my.telegram.org",
           "value": "Yes"
