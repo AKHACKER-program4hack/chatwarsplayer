@@ -13,14 +13,17 @@ async def send_all(client, message):
   timer = 427
   try:
     call_backs = []
-    i = 0
+    num = 0
     for inline in get_inline:
       try:
         check_list = isinstance(inline, list)
         if check_list:
           for lis in inline:
-            if i <= 2:
+            if num <= 2:
               call_backs.append(lis.callback_data)
+              num += 1
+            else:
+              break
         else:
           print(check_list)
           # print(inline)
