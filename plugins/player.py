@@ -8,7 +8,7 @@ async def send_all(client, message):
   chat_id = message.chat.id
   time.sleep(2)
   if "🌲Forest " in message.text:
-    for i in range(0,4):
+    for i in range(0,3):
       try:
         print("clicking " + str(i))
         await message.click(i)
